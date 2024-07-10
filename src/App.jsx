@@ -26,8 +26,11 @@ function App() {
       <h1>QR Code Generator</h1>
       <div className="input-box">
         <div className="gen">
-          <input type="text" onChange={
-            (e) => { setTemp(e.target.value) }}
+          <input
+            type="text"
+            onChange={
+              (e) => { setTemp(e.target.value) }
+            }
             placeholder="Enter text to encode" />
           <button className="button"
             onClick={handleClick}>
@@ -36,10 +39,18 @@ function App() {
         </div>
         <div className="extra">
           <h5>Background Color:</h5>
-          <input type="color" onChange={(e) => { setBgColor(e.target.value.substring(1)) }} />
+          <input
+            type="color"
+            onChange={(e) => { setBgColor(e.target.value.substring(1)) }
+            } />
           <h5>Dimension:</h5>
-          <input type="range" min="200" max="600"
-            value={size} onChange={(e) => { setSize(e.target.value) }} />
+          <input
+            type="range"
+            min="200"
+            max="600"
+            value={size}
+            onChange={(e) => { setSize(e.target.value) }}
+          />
         </div>
       </div>
       <div className="output-box">
