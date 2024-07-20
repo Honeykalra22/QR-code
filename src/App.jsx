@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [temp, setTemp] = useState("");
   const [word, setWord] = useState("");
-  const [size, setSize] = useState(400);
+  const [size, setSize] = useState(300);
   const [bgColor, setBgColor] = useState("ffffff");
   const [qrCode, setQrCode] = useState("");
 

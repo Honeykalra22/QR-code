@@ -25,8 +25,9 @@ button{
   font-size: 18px; 
   border: none; 
   color: whitesmoke; 
-  background-color: forestgreen; 
-  box-shadow: 2px 2px 5px rgb(74, 182, 74); 
+  /* background-color: forestgreen;  */
+  /* box-shadow: 2px 2px 5px rgb(74, 182, 74);  */
+  text-align: center;
   cursor: pointer; 
 } 
 button:active{ 
